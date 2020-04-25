@@ -15,6 +15,10 @@
   #Portfolio .card-gallery .card {
     margin: 0px;
   }
+
+  #Portfolio .card-gallery .card .cardbody {
+    box-shadow: none;
+  }
 }
 @media only screen and (min-width: 768px) {
   #hlpage {
@@ -29,6 +33,10 @@
 
   #Portfolio .card-gallery .card {
     margin: 10px;
+  }
+
+  #Portfolio .card-gallery .card .cardbody {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
 html {
@@ -173,9 +181,6 @@ html body #Portfolio .card-gallery {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-}
-html body #Portfolio .card-gallery .card .card-body {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 html body #Portfolio .card-gallery .card .card-body .btn-primary {
   background-color: black;
