@@ -1,22 +1,3 @@
-@media (max-width: 640px) {
-  #hlpage .navmenu {
-    justify-content: center;
-  }
-  #hlpage .navmenu .mylogo {
-    height: 40px;
-    width: 40px;
-    transition: 0.5s;
-  }
-
-  .card-img {
-    width: 100px;
-  }
-
-  #Portfolio .card-gallery .card {
-    width: 14rem;
-    margin: 3px;
-  }
-}
 @media (max-width: 767px) {
   #hlpage .navmenu {
     justify-content: center;
@@ -32,7 +13,7 @@
   }
 
   #Portfolio .card-gallery .card {
-    width: 15rem;
+    width: 250px;
     margin: 3px;
   }
 }
