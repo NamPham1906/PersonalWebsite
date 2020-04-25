@@ -11,6 +11,10 @@
   .card-img {
     width: 100px;
   }
+
+  #Portfolio .card-gallery .card {
+    margin: 0px;
+  }
 }
 @media only screen and (min-width: 768px) {
   #hlpage {
@@ -21,6 +25,10 @@
   #hlpage .mylogo {
     width: 60px;
     margin-right: 30px;
+  }
+
+  #Portfolio .card-gallery .card {
+    margin: 10px;
   }
 }
 html {
@@ -165,9 +173,6 @@ html body #Portfolio .card-gallery {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-}
-html body #Portfolio .card-gallery .card {
-  margin: 10px;
 }
 html body #Portfolio .card-gallery .card .card-body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
