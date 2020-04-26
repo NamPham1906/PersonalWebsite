@@ -13,7 +13,8 @@
   }
 
   #Portfolio .card-gallery .card {
-    width: 90%;
+    width: 95%;
+    font-size: 15px;
     margin: 3px;
   }
 }
