@@ -18,6 +18,20 @@
     font-size: 15px;
     margin: 3px;
   }
+
+  #Contact .buttonarray .btn-outline-dark {
+    margin: 2%;
+    padding: 0px;
+    width: 11vw;
+    height: 9vw;
+    font-size: 6vw;
+    border-width: medium;
+  }
+  #Contact .buttonarray .btn-outline-dark:hover {
+    width: 12vw;
+    height: 11vw;
+    font-size: 6vw;
+  }
 }
 @media (min-width: 769px) and (max-width: 1070px) {
   #hlpage .navmenu {
@@ -39,6 +53,20 @@
     font-size: 15px;
     margin: 3px;
   }
+
+  #Contact .buttonarray .btn-outline-dark {
+    margin: 2%;
+    padding: 0px;
+    width: 11vw;
+    height: 6.5vw;
+    font-size: 4vw;
+    border-width: medium;
+  }
+  #Contact .buttonarray .btn-outline-dark:hover {
+    width: 12vw;
+    height: 10vw;
+    font-size: 6vw;
+  }
 }
 @media only screen and (min-width: 1071px) {
   #hlpage {
@@ -54,6 +82,20 @@
   #Portfolio .card-gallery .card {
     margin: 10px;
     width: 18rem;
+  }
+
+  #Contact .buttonarray .btn-outline-dark {
+    margin: 2%;
+    padding: 0px;
+    width: 11vw;
+    height: 6.5vw;
+    font-size: 4vw;
+    border-width: medium;
+  }
+  #Contact .buttonarray .btn-outline-dark:hover {
+    width: 12vw;
+    height: 10vw;
+    font-size: 6vw;
   }
 }
 html {
@@ -237,18 +279,8 @@ html body #Contact .buttonarray {
   padding-right: 5px;
 }
 html body #Contact .buttonarray .btn-outline-dark {
-  margin: 2%;
-  padding: 0px;
-  width: 11vw;
-  height: 6.5vw;
-  font-size: 4vw;
   justify-content: center;
   border-width: medium;
-}
-html body #Contact .buttonarray .btn-outline-dark:hover {
-  width: 12vw;
-  height: 10vw;
-  font-size: 6vw;
 }
 html body div h5 {
   font-family: "Rationale";
