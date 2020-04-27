@@ -19,18 +19,21 @@
     margin: 3px;
   }
 
+  #Contact .buttonarray {
+    height: 15vw;
+  }
   #Contact .buttonarray .btn-outline-dark {
     margin: 2%;
     padding: 0px;
     width: 11vw;
-    height: 9vw;
-    font-size: 6vw;
+    height: 11vw;
+    font-size: 7vw;
     border-width: medium;
   }
   #Contact .buttonarray .btn-outline-dark:hover {
     width: 12vw;
-    height: 11vw;
-    font-size: 6vw;
+    height: 12vw;
+    font-size: 8vw;
   }
 }
 @media (min-width: 769px) and (max-width: 1070px) {
@@ -54,6 +57,9 @@
     margin: 3px;
   }
 
+  #Contact .buttonarray {
+    height: 12vw;
+  }
   #Contact .buttonarray .btn-outline-dark {
     margin: 2%;
     padding: 0px;
@@ -84,6 +90,9 @@
     width: 18rem;
   }
 
+  #Contact .buttonarray {
+    height: 12vw;
+  }
   #Contact .buttonarray .btn-outline-dark {
     margin: 2%;
     padding: 0px;
@@ -268,7 +277,6 @@ html body #Contact {
 }
 html body #Contact .buttonarray {
   width: 100%;
-  height: 12vw;
   background-color: #f2f0e6;
   display: flex;
   justify-content: center;
