@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   #hlpage .navmenu {
     justify-content: center;
   }
@@ -6,6 +6,7 @@
     height: 40px;
     width: 40px;
     transition: 0.5s;
+    margin-right: 5px;
   }
 
   .card-img {
@@ -18,7 +19,28 @@
     margin: 3px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media (min-width: 769px) and (max-width: 1070px) {
+  #hlpage .navmenu {
+    justify-content: center;
+  }
+  #hlpage .navmenu .mylogo {
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+    margin-right: 5px;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+
+  #Portfolio .card-gallery .card {
+    width: 95%;
+    font-size: 15px;
+    margin: 3px;
+  }
+}
+@media only screen and (min-width: 1071px) {
   #hlpage {
     justify-content: center;
     align-items: center;
@@ -171,29 +193,51 @@ html body #WorkExperience .progress .bg-warning {
   font-weight: bold;
   color: black;
 }
-html body #Portfolio .card-gallery {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
+html body #Portfolio .col-md-8 {
   justify-content: center;
 }
-html body #Portfolio .card-gallery .card .card-body {
+html body #Portfolio .col-md-8 .card-gallery {
+  display: flex;
+  width: 100%;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  float: right;
+}
+html body #Portfolio .col-md-8 .card-gallery .card {
+  margin-bottom: 10px;
+}
+html body #Portfolio .col-md-8 .card-gallery .card .card-body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-html body #Portfolio .card-gallery .card .card-body .btn-primary {
+html body #Portfolio .col-md-8 .card-gallery .card .card-body .btn-primary {
   background-color: black;
   border: black;
   float: right;
 }
-html body #Portfolio .card-gallery .card .card-body .btn:hover {
+html body #Portfolio .col-md-8 .card-gallery .card .card-body .btn:hover {
   border: black;
   background-color: gray;
 }
-html body #Portfolio .card-gallery .card .card-body .btn-primary:focus {
+html body #Portfolio .col-md-8 .card-gallery .card .card-body .btn-primary:focus {
   box-shadow: none;
 }
 html body #Contact {
   float: right;
+}
+html body #Contact .buttonarray {
+  width: 100%;
+  height: auto;
+  background-color: #f2f0e6;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
+html body #Contact .buttonarray .btn-outline-dark {
+  margin: 2%;
+  width: 5rem;
+  height: 5rem;
+  font-size: 2.5rem;
+  border-width: medium;
 }
 html body div h5 {
   font-family: "Rationale";
